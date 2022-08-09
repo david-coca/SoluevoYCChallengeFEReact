@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  display:flex;
+  justify-content: space-around;
+  margin: 20px 0 30px 0;
+  width: 200px;
+}
+.card {
+  justify-content: center;
+  margin-left: 30px;
+}
+.cardHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardBody p {
+  text-align: center;
+  font-size: 18px;
+}
+.buttonHeart {
+  background-color: transparent;
+  border:none;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .container {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
